@@ -51,7 +51,7 @@ class Demo extends Component{
         let demos = [
             {demoImg: 'home-1.jpg', demoLink: 'home-one', demoTitle: 'Home One'},
             {demoImg: 'home-2.jpg', demoLink: 'home-two', demoTitle: 'Home Two'},
-            {demoImg: 'home-3.jpg', demoLink: 'home-three', demoTitle: 'Home Three'},
+            {demoImg: 'home-3.jpg', demoLink: 'categories', demoTitle: 'Categories'},
             {demoImg: 'about.jpg', demoLink: 'about-us', demoTitle: 'About Page'},
             {demoImg: 'category-1.jpg', demoLink: 'categories', demoTitle: 'Category Page'},
             {demoImg: 'category-details-1.jpg', demoLink: 'category-details-left-sidebar', demoTitle: 'Category Details (Left Sidebar)'},
@@ -82,10 +82,10 @@ class Demo extends Component{
             
         ];
 
-        let suggestionsWP = [
-            {imgUrl: '', suggestionLink:'', suggestionTitle: 'Lalala'},
+        // let suggestionsWP = [
+        //     {imgUrl: '', suggestionLink:'', suggestionTitle: 'Lalala'},
            
-        ];
+        // ];
         
         return(
             <div>
@@ -131,10 +131,6 @@ class Demo extends Component{
                     {/* Suggestions HTML Section Start */}
                     <Suggestions background="" category = "intro" suggestions = {suggestionsHTML} />
                     {/* Suggestions HTML Section End */}
-
-                    {/* Suggestions WP Start */}
-                    <Suggestions background="bg-gray" category = "history" suggestions = {suggestionsWP} />
-                    {/* Suggestions WP Section End */}
 
                     {/* Footer Section Start */}
                     <div className="footer-section section pt-65 pb-50 overlay bg-img" data-bg="assets/img/landing/hero-bg.jpg">

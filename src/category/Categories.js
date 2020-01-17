@@ -7,12 +7,12 @@ class Categories extends Component{
     render(){
 
         let data = [
-            {pageLink: 'category-details-left-sidebar', img: 'category1.jpg', iconClass: 'flaticon-002-welding', categoryTitle: 'Land Minning', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
-            {pageLink: 'category-details-left-sidebar', img: 'category2.jpg', iconClass: 'flaticon-004-walkie-talkie', categoryTitle: 'Work Management', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
-            {pageLink: 'category-details-left-sidebar', img: 'category3.jpg', iconClass: 'flaticon-015-cart', categoryTitle: 'Material Engineering', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
-            {pageLink: 'category-details-left-sidebar', img: 'category-3.jpg', iconClass: 'flaticon-010-tank-1', categoryTitle: 'Power and Energy', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
-            {pageLink: 'category-details-left-sidebar', img: 'category-2.jpg', iconClass: 'flaticon-004-walkie-talkie', categoryTitle: 'Land Minning', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
-            {pageLink: 'category-details-left-sidebar', img: 'category-1.jpg', iconClass: 'flaticon-002-welding', categoryTitle: 'Work Management', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'}
+            {pageLink: 'category-details-left-sidebar', img: 'category1.jpg', iconClass: 'flaticon-002-welding', categoryTitle: 'London', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
+            {pageLink: 'category-details-left-sidebar', img: 'category2.jpg', iconClass: 'flaticon-004-walkie-talkie', categoryTitle: 'New York', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
+            {pageLink: 'category-details-left-sidebar', img: 'category3.jpg', iconClass: 'flaticon-015-cart', categoryTitle: 'Material Beverly Hills', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
+            {pageLink: 'category-details-left-sidebar', img: 'category-3.jpg', iconClass: 'flaticon-010-tank-1', categoryTitle: 'Miami', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
+            {pageLink: 'category-details-left-sidebar', img: 'category-2.jpg', iconClass: 'flaticon-004-walkie-talkie', categoryTitle: 'Paris', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'},
+            {pageLink: 'category-details-left-sidebar', img: 'category-1.jpg', iconClass: 'flaticon-002-welding', categoryTitle: 'New York', categorySubtitle: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor'}
         ];
 
         let Datalist = data.map((val, i) => {
