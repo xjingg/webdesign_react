@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import Swiper from 'react-id-swiper';
 
-class ServiceGridSlider extends Component{
+class CategoryGridSlider extends Component{
     render(){
         const params = {
             slidesPerView : 3,
@@ -33,10 +33,10 @@ class ServiceGridSlider extends Component{
 
         }
         let data = [
-            {img: 'service1.jpg', categoryTitle: 'London', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
-            {img: 'service2.jpg', categoryTitle: 'New York', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
-            {img: 'service3.jpg', categoryTitle: 'Beverly Hills', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
-            {img: 'service4.jpg', categoryTitle: 'Miami', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
+            {img: 'category1.jpg', categoryTitle: 'London', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
+            {img: 'category2.jpg', categoryTitle: 'New York', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
+            {img: 'category3.jpg', categoryTitle: 'Beverly Hills', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
+            {img: 'category4.jpg', categoryTitle: 'Miami', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
         ];
 
         let DataList = data.map((val, i)=>{
@@ -98,4 +98,4 @@ class ServiceGridSlider extends Component{
 }
 
 
-export default ServiceGridSlider;
+export default CategoryGridSlider;

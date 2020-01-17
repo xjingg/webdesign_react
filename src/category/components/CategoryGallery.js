@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import Swiper from 'react-id-swiper';
 
-class ServiceGallery extends Component{
+class CategoryGallery extends Component{
     render(){
                 
         /* category image gallery slider params*/
@@ -25,12 +25,12 @@ class ServiceGallery extends Component{
         /* category image gallery data */
 
         let imageGalleryData = [
-            {img: 'service-details-1.jpg'},
-            {img: 'service-details-2.jpg'},
-            {img: 'service-details-3.jpg'},
-            {img: 'service-details-4.jpg'},
-            {img: 'service-details-5.jpg'},
-            {img: 'service-details-6.jpg'}
+            {img: 'category-details-1.jpg'},
+            {img: 'category-details-2.jpg'},
+            {img: 'category-details-3.jpg'},
+            {img: 'category-details-4.jpg'},
+            {img: 'category-details-5.jpg'},
+            {img: 'category-details-6.jpg'}
         ];
 
         
@@ -38,9 +38,9 @@ class ServiceGallery extends Component{
 
         let ImageGalleryDataList = imageGalleryData.map((val, i) => {
             return(
-                <div className="swiper-slide service-gallery__single-slide" key={i}>
+                <div className="swiper-slide category-gallery__single-slide" key={i}>
                     <div className="item">
-                        <img src={`assets/img/service/${val.img}`} className="img-fluid" alt="gallery data" />
+                        <img src={`assets/img/category/${val.img}`} className="img-fluid" alt="gallery data" />
                     </div>
                 </div>
             )
@@ -49,7 +49,7 @@ class ServiceGallery extends Component{
 
         return(
             <div>
-                <div className="service-gallery">
+                <div className="category-gallery">
                     <Swiper {...params}>
                         {ImageGalleryDataList}
                     </Swiper>
@@ -59,4 +59,4 @@ class ServiceGallery extends Component{
     }
 }
 
-export default ServiceGallery;
+export default CategoryGallery;

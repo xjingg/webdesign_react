@@ -5,7 +5,7 @@ import CategoryGallery from './components/CategoryGallery';
 import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
-class ServiceDetailsLeftSidebar extends Component{
+class CategoryDetailsLeftSidebar extends Component{
     render(){
         return(
             <div>
@@ -33,7 +33,7 @@ class ServiceDetailsLeftSidebar extends Component{
                 {/*====================  End of breadcrumb area  ====================*/}
 
                 <div className="page-wrapper section-space--inner--120">
-                    {/*Service section start*/}
+                    {/*Category section start*/}
                     <div className="category-section">
                         <div className="container">
                         <div className="row">
@@ -75,7 +75,7 @@ class ServiceDetailsLeftSidebar extends Component{
                         </div>
                         </div>
                     </div>
-                    {/*Service section end*/}
+                    {/*category section end*/}
                     </div>
 
                 {/* Brand logo */}
@@ -93,4 +93,4 @@ class ServiceDetailsLeftSidebar extends Component{
 }
 
 
-export default ServiceDetailsLeftSidebar;
+export default CategoryDetailsLeftSidebar;

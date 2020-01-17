@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import HeroSliderThree from './components/HeroSliderThree';
 import FeatureIconText from './components/FeatureIconText';
 import AboutText from './components/AboutText';
-import ServiceTabTwo from './components/ServiceTabTwo';
+import CategoryTabTwo from './components/CategoryTabTwo';
 import TestimonialSlider from './components/TestimonialSlider';
 import ProjectImageGallery from './components/ProjectImageGallery'
 import BlogGridTwo from './components/BlogGridTwo';
@@ -29,8 +29,8 @@ class HomeThree extends Component{
                 {/* About text */}
                 <AboutText/>
                 
-                {/* Service Tab */}
-                <ServiceTabTwo/>
+                {/* category Tab */}
+                <CategoryTabTwo/>
                 
                 {/* Testimonial Slider */}
                 <TestimonialSlider/>
