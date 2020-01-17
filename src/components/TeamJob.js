@@ -4,9 +4,9 @@ class TeamJob extends Component{
     render(){
 
         let data = [
-            {jobTitle: "Warehouse General Laborer", jobDesc: "here are many variations of passages", jobLink: "/"},
-            {jobTitle: "General Factory Worker", jobDesc: "here are many variations of passages", jobLink: "/"},
-            {jobTitle: "Production Weekender", jobDesc: "here are many variations of passages", jobLink: "/"}
+            {jobTitle: "Orange Scent", jobDesc: "here are many variations of candles", jobLink: "/"},
+            {jobTitle: "Fruit Scent", jobDesc: "here are many variations of candles", jobLink: "/"},
+            {jobTitle: "Flower Scent", jobDesc: "here are many variations of candles", jobLink: "/"}
         ];
 
         let DataList = data.map((val, i)=>{
@@ -30,7 +30,7 @@ class TeamJob extends Component{
                             <button onClick={null} className="see-more-link see-more-link--color">Meet Our new edition</button>
                         </div>
                         <div className="team-job__content-wrapper">
-                            <h2 className="team-job__title">Open Job <span><button onClick={null} className="see-more-link see-more-link--color">VIEW ALL products</button></span></h2>
+                            <h2 className="team-job__title">New Scents <span><button onClick={null} className="see-more-link see-more-link--color">VIEW ALL products</button></span></h2>
                             <div className="team-job__list-wrapper">
                                 {DataList}
                             </div>

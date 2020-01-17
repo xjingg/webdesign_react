@@ -2,6 +2,7 @@
   "name": "castro",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http://xjingg.github.io/myapp",
   "dependencies": {
     "@babel/core": "7.4.3",
     "@svgr/webpack": "4.1.0",
@@ -139,5 +140,8 @@
     "presets": [
       "react-app"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
 }

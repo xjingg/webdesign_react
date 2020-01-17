@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import NavBar from './components/NavBar';
 import HeroSliderOne from './components/HeroSliderOne';
 import CategoryGridSlider from './components/CategoryGridSlider';
-import Funfact from './components/Funfact';
+// import Funfact from './components/Funfact';
 import VideoCta from './components/VideoCta';
 import ProjectSlider from './components/ProjectSlider';
 import TeamJob from './components/TeamJob';
@@ -28,7 +28,7 @@ class HomeOne extends Component{
                 <CategoryGridSlider/>
                 
                 {/* Fun fact */}
-                <Funfact/>
+                {/* <Funfact/> */}
                 
                 {/* Video CTA */}
                 <VideoCta/>
@@ -36,7 +36,7 @@ class HomeOne extends Component{
                 {/* Project Slider */}
                 <ProjectSlider/>
                 
-                {/* Team job */}
+                {/* Blog */}
                 <TeamJob/>
                 
                 {/* Testimonial Slider */}

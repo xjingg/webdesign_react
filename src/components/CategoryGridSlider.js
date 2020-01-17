@@ -43,23 +43,23 @@ class CategoryGridSlider extends Component{
         let DataList = data.map((val, i)=>{
             return(
                 <div className="swiper-slide" key={i}>
-                    <div className="service-grid-item">
-                    <div className="service-grid-item__image">
-                        <div className="service-grid-item__image-wrapper">
-                        <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`}>
-                            <img src={`assets/img/service/${val.img}`} className="img-fluid" alt="" />
+                    <div className="category-grid-item">
+                    <div className="category-grid-item__image">
+                        <div className="category-grid-item__image-wrapper">
+                        <a href={`${process.env.PUBLIC_URL}/${val.categoryUrl}`}>
+                            <img src={`assets/img/category/${val.img}`} className="img-fluid" alt="" />
                         </a>
                         </div>
                         <div className="icon">
                         <i className={val.iconName} />
                         </div>
                     </div>
-                    <div className="service-grid-item__content">
+                    <div className="category-grid-item__content">
                         <h3 className="title">
-                        <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`}>{val.categoryTitle}</a>
+                        <a href={`${process.env.PUBLIC_URL}/${val.categoryUrl}`}>{val.categoryTitle}</a>
                         </h3>
-                        <p className="subtitle">{val.serviceExcerpt}</p>
-                        <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`} className="see-more-link">SEE MORE</a>
+                        <p className="subtitle">{val.categoryExcerpt}</p>
+                        <a href={`${process.env.PUBLIC_URL}/${val.categoryUrl}`} className="see-more-link">SEE MORE</a>
                     </div>
                     </div>
                 </div>
@@ -67,17 +67,17 @@ class CategoryGridSlider extends Component{
         });
         return(
             <div>
-                {/*====================  service grid slider area ====================*/}
-                <div className="service-grid-slider-area section-space--inner--120">
+                {/*====================  category grid slider area ====================*/}
+                <div className="category-grid-slider-area section-space--inner--120">
                 <div className="container">
                     <div className="row">
                     <div className="col-lg-12">
                         <div className="section-title-area text-center">
-                        <h2 className="section-title section-space--bottom--50">Our Services <span className="title-icon" /></h2>
+                        <h2 className="section-title section-space--bottom--50">Limited Editions <span className="title-icon" /></h2>
                         </div>
                     </div>
                     <div className="col-lg-12">
-                        <div className="service-slider">
+                        <div className="category-slider">
                             <Swiper {...params}>
                                 {DataList}
                             </Swiper>
@@ -86,7 +86,7 @@ class CategoryGridSlider extends Component{
                     </div>
                 </div>
                 </div>
-                {/*====================  End of service grid slider area  ====================*/}
+                {/*====================  End of category grid slider area  ====================*/}
 
             </div>
         )
