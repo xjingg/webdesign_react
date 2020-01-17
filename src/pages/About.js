@@ -70,7 +70,7 @@ class About extends Component{
                         <h1>xxxxxxx</h1>
                         <h4>Lorem ipsum dolor sit amet, consectetur adipisicing elit</h4>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsam repudiandae odit dolorum quis laudantium impedit beatae perferendis natus, hic libero sed atque quibusdam possimus error, voluptate est molestiae doloremque necessitatibus illum rerum sunt! Ad sunt obcaecati voluptatem sint sequi quos, qui non deleniti a praesentium, sapiente accusantium odit.</p>
-                        <a href="services" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Our Services</a>
+                        <a href="categories" className="ht-btn--default ht-btn--default--dark-hover section-space--top--20">Our Services</a>
                         </div>
                     </div>
                     </div>

@@ -1,7 +1,7 @@
 import React, {Component} from 'react';
 import NavBar from './components/NavBar';
 import HeroSliderOne from './components/HeroSliderOne';
-import ServiceGridSlider from './components/ServiceGridSlider';
+import CategoryGridSlider from './components/CategoryGridSlider';
 import Funfact from './components/Funfact';
 import VideoCta from './components/VideoCta';
 import ProjectSlider from './components/ProjectSlider';
@@ -24,8 +24,8 @@ class HomeOne extends Component{
                 {/* Hero slider */}
                 <HeroSliderOne/>
                 
-                {/* Service grid slider */}
-                <ServiceGridSlider/>
+                {/* Categorygrid slider */}
+                <CategoryGridSlider/>
                 
                 {/* Fun fact */}
                 <Funfact/>

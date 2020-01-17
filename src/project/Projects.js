@@ -3,7 +3,7 @@ import NavBar from '../components/NavBar';
 import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
-class Products extends Component{
+class Projects extends Component{
     render(){
 
         let data = [
@@ -20,15 +20,15 @@ class Products extends Component{
         let Datalist = data.map((val, i)=> {
             return(
                 <div className="col-lg-4 col-sm-6 col-12 section-space--bottom--30" key={i}>
-                    <div className="service-grid-item service-grid-item--style2">
-                    <div className="service-grid-item__image">
-                        <div className="service-grid-item__image-wrapper">
+                    <div className="category-grid-item category-grid-item--style2">
+                    <div className="category-grid-item__image">
+                        <div className="category-grid-item__image-wrapper">
                         <a href={`${process.env.PUBLIC_URL}/${val.pageLink}`}>
                             <img src={`assets/img/projects/${val.img}`} className="img-fluid" alt="" />
                         </a>
                         </div>
                     </div>
-                    <div className="service-grid-item__content">
+                    <div className="category-grid-item__content">
                         <h3 className="title">
                         <a href={`${process.env.PUBLIC_URL}/${val.pageLink}`}>{val.projectTitle}</a>
                         </h3>
@@ -111,4 +111,4 @@ class Products extends Component{
 }
 
 
-export default Products;
+export default Projects;

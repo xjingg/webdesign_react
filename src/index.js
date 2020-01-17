@@ -5,14 +5,12 @@ import ReactDOM from 'react-dom';
 import './index.scss';
 import DemoIndex from './demo_page/Demo';
 import HomeOne from './HomeOne';
-import HomeTwo from './HomeTwo';
-import HomeThree from './HomeThree';
 import About from './pages/About';
-import Services from './service/Services';
-import ServiceDetailsLeftSidebar from './service/ServiceDetailsLeftSidebar';
-import ServiceDetailsRightSidebar from './service/ServiceDetailsRightSidebar';
-import Products from './product/Products';
-import ProductDetail from './product/ProductDetail';
+import Categories from './category/Categories';
+import CategoryDetailsLeftSidebar from './category/CategoryDetailsLeftSidebar';
+import CategoryDetailsRightSidebar from './category/CategoryDetailsRightSidebar';
+import Projects from './project/Projects';
+import ProjectDetail from './project/ProjectDetail';
 import BlogLeftSidebar from './blog/BlogLeftSidebar';
 import BlogRightSidebar from './blog/BlogRightSidebar';
 import BlogDetailsLeftSidebar from './blog/BlogDetailsLeftSidebar';
@@ -28,16 +26,16 @@ class Root extends Component{
         return(
             <BrowserRouter basename={'/'}>
                 <Switch>
-                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={DemoIndex}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-one`} component={HomeOne}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-two`} component={HomeTwo}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/home-three`} component={HomeThree}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/`} component={HomeOne}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/home-one`} component={HomeOne}/> */}
+                    <Route exact path={`${process.env.PUBLIC_URL}/home-one`} component={DemoIndex}/>
+                    {/* <Route exact path={`${process.env.PUBLIC_URL}/home-three`} component={HomeThree}/> */}
                     <Route exact path={`${process.env.PUBLIC_URL}/about-us`} component={About}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/services`} component={Services}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/service-details-left-sidebar`} component={ServiceDetailsLeftSidebar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/service-details-right-sidebar`} component={ServiceDetailsRightSidebar}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/products`} component={Products}/>
-                    <Route exact path={`${process.env.PUBLIC_URL}/product-details`} component={ProductDetail}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/categories`} component={Categories}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/category-details-left-sidebar`} component={CategoryDetailsLeftSidebar}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/category-details-right-sidebar`} component={CategoryDetailsRightSidebar}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/projects`} component={Projects}/>
+                    <Route exact path={`${process.env.PUBLIC_URL}/project-details`} component={ProjectDetail}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-left-sidebar`} component={BlogLeftSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-right-sidebar`} component={BlogRightSidebar}/>
                     <Route exact path={`${process.env.PUBLIC_URL}/blog-details-left-sidebar`} component={BlogDetailsLeftSidebar}/>

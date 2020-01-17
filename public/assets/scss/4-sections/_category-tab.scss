@@ -1,9 +1,9 @@
 
 /*=============================================
-=            service tab            =
+=            category tab            =
 =============================================*/
 
-.service-tab{
+.category-tab{
     &__link-wrapper{
 
         @media #{$large-mobile}{
@@ -98,7 +98,7 @@
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center center;
-        //background-image: url('/assets/img/backgrounds/service-tab1.jpg');
+        //background-image: url('/assets/img/backgrounds/category-tab1.jpg');
         @media #{$extra-small-mobile}{
             padding: 40px 15px;
         }
@@ -155,7 +155,7 @@
     }
 }
 
-.service-tab-wrapper{
+.category-tab-wrapper{
     .react-tabs__tab-panel{
         opacity: 0;
         transition: $transition--cubic;
@@ -171,4 +171,4 @@
     }
 }
 
-/*=====  End of service tab  ======*/
+/*=====  End of category tab  ======*/

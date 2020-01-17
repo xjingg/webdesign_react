@@ -4,7 +4,7 @@ import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
 import PhotoGallery from './components/PhotoGallery';
-class ProductDetail extends Component{
+class ProjectDetail extends Component{
 
     render(){
         return(
@@ -90,4 +90,4 @@ class ProductDetail extends Component{
 }
 
 
-export default ProductDetail;
+export default ProjectDetail;

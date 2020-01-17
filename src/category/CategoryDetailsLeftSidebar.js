@@ -1,13 +1,12 @@
 import React, {Component} from 'react';
 import NavBar from '../components/NavBar';
 import Sidebar from './components/Sidebar';
+import CategoryGallery from './components/CategoryGallery';
 import BrandLogoSlider from '../components/BrandLogoSlider';
 import Footer from '../components/Footer';
 import MobileMenu from '../components/MobileMenu';
-import ServiceGallery from './components/ServiceGallery';
-class ServiceDetailsRightSidebar extends Component{
+class ServiceDetailsLeftSidebar extends Component{
     render(){
-
         return(
             <div>
                 {/* Navigation bar */}
@@ -20,11 +19,11 @@ class ServiceDetailsRightSidebar extends Component{
                         <div className="row">
                             <div className="col">
                                 <div className="page-banner text-center">
-                                    <h1>Service Details</h1>
+                                    <h1>Candles Details</h1>
                                     <ul className="page-breadcrumb">
                                         <li><a href="/">Home</a></li>
-                                        <li><a href={`${process.env.PUBLIC_URL}/services`}>Services</a></li>
-                                        <li>Service Details</li>
+                                        <li><a href={`${process.env.PUBLIC_URL}/categories`}>Category</a></li>
+                                        <li>New Edition Details</li>
                                     </ul>
                                 </div>
                             </div>
@@ -35,26 +34,27 @@ class ServiceDetailsRightSidebar extends Component{
 
                 <div className="page-wrapper section-space--inner--120">
                     {/*Service section start*/}
-                    <div className="service-section">
+                    <div className="category-section">
                         <div className="container">
                         <div className="row">
-                            <div className="col-lg-8 col-12 order-1">
-                            <div className="service-details">
-                                {/* service gallery */}
-                                <ServiceGallery/>
+                            <div className="col-lg-8 col-12 order-1 order-lg-2">
+                            <div className="category-details">
+                                {/* category gallery */}
+                                <CategoryGallery/>
+
                                 <div className="content section-space--top--30">
                                 <div className="row">
                                     <div className="col-12">
-                                    <h2>Construction</h2>
+                                    <h2>Perfumes</h2>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ratione, sunt perspiciatis error id ipsa atque unde quis dolore nobis eum aperiam enim blanditiis pariatur inventore eius commodi consectetur ut. Totam, assumenda! Laboriosam possimus, corporis dicta!</p>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores aliquid quod, officiis unde nostrum itaque! Adipisci dolorum, ab dolor, exercitationem praesentium dolorem quo voluptatum itaque dignissimos, sit esse cupiditate. Doloremque rerum similique a nobis placeat in illum, quo quaerat, ut repellat, fuga itaque? Nihil mollitia nisi, nam, accusantium nemo consequuntur reiciendis autem dicta consequatur earum beatae dolor distinctio, debitis repudiandae?</p>
                                     </div>
                                     <div className="col-lg-6 col-12 section-space--top--30">
-                                    <h3>Project Analysis</h3>
+                                    <h3>Spring EDITION</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>
                                     </div>
                                     <div className="col-lg-6 col-12 section-space--top--30">
-                                    <h3>Project Costing</h3>
+                                    <h3>Summer Edition</h3>
                                     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Fugiat, animi? Vel quas in minima qui totam, aliquid dolores quaerat voluptatum?</p>
                                     </div>
                                     <div className="col-lg-6 col-12 section-space--top--30">
@@ -69,7 +69,7 @@ class ServiceDetailsRightSidebar extends Component{
                                 </div>
                             </div>
                             </div>
-                            <div className="col-lg-4 col-12 order-2">
+                            <div className="col-lg-4 col-12 order-2 order-lg-1">
                                 <Sidebar />
                             </div>
                         </div>
@@ -93,4 +93,4 @@ class ServiceDetailsRightSidebar extends Component{
 }
 
 
-export default ServiceDetailsRightSidebar;
+export default ServiceDetailsLeftSidebar;

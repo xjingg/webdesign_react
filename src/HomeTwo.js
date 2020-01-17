@@ -3,7 +3,7 @@ import NavBar from './components/NavBar';
 import HeroSliderTwo from './components/HeroSliderTwo';
 import VideoCta from './components/VideoCta';
 import ProjectSliderTwo from './components/ProjectSliderTwo';
-import ServiceTab from './components/ServiceTab';
+import CategoryTab from './components/CategoryTab';
 import TestimonialSlider from './components/TestimonialSlider';
 import TeamJob from './components/TeamJob';
 import BlogGrid from './components/BlogGrid';
@@ -29,8 +29,8 @@ class HomeTwo extends Component{
                 {/* Project Slider */}
                 <ProjectSliderTwo/>
                 
-                {/* Service Tab */}
-                <ServiceTab/>
+                {/* CategoryTab */}
+                <CategoryTab/>
                 
                 {/* Testimonial Slider */}
                 <TestimonialSlider/>

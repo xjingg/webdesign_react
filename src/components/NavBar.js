@@ -137,11 +137,11 @@ class NavBar extends Component{
                                             </li>
                                             <li><Link to={`${process.env.PUBLIC_URL}/about-us`}>ABOUT</Link></li>
                                             <li className="has-children has-children--multilevel-submenu">
-                                                <Link to={`${process.env.PUBLIC_URL}/services`}>SERVICE</Link>
+                                                <Link to={`${process.env.PUBLIC_URL}/categories`}>CATEGORY</Link>
                                                 <ul className="submenu">
-                                                <li><Link to={`${process.env.PUBLIC_URL}/services`}>Service Page</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-left-sidebar`}>Service Details Left Sidebar</Link></li>
-                                                <li><Link to={`${process.env.PUBLIC_URL}/service-details-right-sidebar`}>Service Details Right Sidebar</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/categories`}>Category Page</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/category-details-left-sidebar`}>Category Details Left Sidebar</Link></li>
+                                                <li><Link to={`${process.env.PUBLIC_URL}/category-details-right-sidebar`}>Category Details Right Sidebar</Link></li>
                                                 </ul>
                                             </li>
                                             <li className="has-children has-children--multilevel-submenu">

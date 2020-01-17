@@ -4,7 +4,7 @@ import Swiper from 'react-id-swiper';
 class ServiceGallery extends Component{
     render(){
                 
-        /* service image gallery slider params*/
+        /* category image gallery slider params*/
 
         const params = {
             slidesPerView : 1,
@@ -22,7 +22,7 @@ class ServiceGallery extends Component{
             )
         };
 
-        /* service image gallery data */
+        /* category image gallery data */
 
         let imageGalleryData = [
             {img: 'service-details-1.jpg'},
@@ -34,7 +34,7 @@ class ServiceGallery extends Component{
         ];
 
         
-        /* service image gallery component */
+        /* category image gallery component */
 
         let ImageGalleryDataList = imageGalleryData.map((val, i) => {
             return(

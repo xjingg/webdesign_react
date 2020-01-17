@@ -33,29 +33,29 @@ class ServiceGridSlider extends Component{
 
         }
         let data = [
-            {img: 'service1.jpg', categoryTitle: 'London', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
-            {img: 'service2.jpg', categoryTitle: 'New York', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
-            {img: 'service3.jpg', categoryTitle: 'Beverly Hills', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
-            {img: 'service4.jpg', categoryTitle: 'Miami', categoryExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', categoryUrl: 'category-details-left-sidebar'},
+            {img: 'service1.jpg', serviceTitle: 'London', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service2.jpg', serviceTitle: 'New York', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service3.jpg', serviceTitle: 'Beverly Hills', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
+            {img: 'service4.jpg', serviceTitle: 'Miami', serviceExcerpt: 'Lorem ipsum dolor sit amet consect adipisi elit sed do eiusm tempor', serviceUrl: 'service-details-left-sidebar'},
         ];
 
         let DataList = data.map((val, i)=>{
             return(
                 <div className="swiper-slide" key={i}>
-                    <div className="category-grid-item category-grid-item--style2">
-                    <div className="category-grid-item__image">
-                        <div className="category-grid-item__image-wrapper">
-                        <a href={`${process.env.PUBLIC_URL}/${val.categoryUrl}`}>
-                            <img src={`assets/img/category/${val.img}`} className="img-fluid" alt="" />
+                    <div className="service-grid-item service-grid-item--style2">
+                    <div className="service-grid-item__image">
+                        <div className="service-grid-item__image-wrapper">
+                        <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`}>
+                            <img src={`assets/img/service/${val.img}`} className="img-fluid" alt="" />
                         </a>
                         </div>
                     </div>
-                    <div className="category-grid-item__content">
+                    <div className="service-grid-item__content">
                         <h3 className="title">
-                        <a href={`${process.env.PUBLIC_URL}/${val.categoryUrl}`}>{val.categoryTitle}</a>
+                        <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`}>{val.serviceTitle}</a>
                         </h3>
-                        <p className="subtitle">{val.categoryExcerpt}</p>
-                        <a href={`${process.env.PUBLIC_URL}/${val.categoryUrl}`} className="see-more-link">SEE MORE</a>
+                        <p className="subtitle">{val.serviceExcerpt}</p>
+                        <a href={`${process.env.PUBLIC_URL}/${val.serviceUrl}`} className="see-more-link">SEE MORE</a>
                     </div>
                     </div>
                 </div>
@@ -64,7 +64,7 @@ class ServiceGridSlider extends Component{
         return(
             <div>
                 {/*====================  project grid slider area ====================*/}
-                <div className="category-slider-title-area grey-bg section-space--inner--top--120 section-space--inner--bottom--285">
+                <div className="service-slider-title-area grey-bg section-space--inner--top--120 section-space--inner--bottom--285">
                     <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
@@ -75,12 +75,12 @@ class ServiceGridSlider extends Component{
                     </div>
                     </div>
                 </div>
-                <div className="category-grid-slider-area">
+                <div className="service-grid-slider-area">
                     <div className="container">
                     <div className="row">
                         <div className="col-lg-12">
-                        <div className="category-slider">
-                            <div className="category-slider__container category-slider__container--style2">
+                        <div className="service-slider">
+                            <div className="service-slider__container service-slider__container--style2">
                                 <Swiper {...params}>
                                     {DataList}
                                 </Swiper>

@@ -4,12 +4,12 @@ class Sidebar extends Component{
     render(){
 
         let data = [
-            {sidebarListLink: "service-details-left-sidebar", sidebarListIcon: 'flaticon-015-cart', sidebarListText: 'Construction'},
-            {sidebarListLink: "service-details-left-sidebar", sidebarListIcon: 'flaticon-010-tank-1', sidebarListText: 'House Remodel'},
-            {sidebarListLink: "service-details-left-sidebar", sidebarListIcon: 'flaticon-002-welding', sidebarListText: 'Interior Design'},
-            {sidebarListLink: "service-details-left-sidebar", sidebarListIcon: 'flaticon-004-walkie-talkie', sidebarListText: 'Floors & Roofs'},
-            {sidebarListLink: "service-details-left-sidebar", sidebarListIcon: 'flaticon-042-monitor', sidebarListText: 'Plumbing'},
-            {sidebarListLink: "service-details-left-sidebar", sidebarListIcon: 'flaticon-050-boxes', sidebarListText: 'Electricity'}
+            {sidebarListLink: "category-details-left-sidebar", sidebarListIcon: 'flaticon-015-cart', sidebarListText: 'Construction'},
+            {sidebarListLink: "category-details-left-sidebar", sidebarListIcon: 'flaticon-010-tank-1', sidebarListText: 'House Remodel'},
+            {sidebarListLink: "category-details-left-sidebar", sidebarListIcon: 'flaticon-002-welding', sidebarListText: 'Interior Design'},
+            {sidebarListLink: "category-details-left-sidebar", sidebarListIcon: 'flaticon-004-walkie-talkie', sidebarListText: 'Floors & Roofs'},
+            {sidebarListLink: "category-details-left-sidebar", sidebarListIcon: 'flaticon-042-monitor', sidebarListText: 'Plumbing'},
+            {sidebarListLink: "category-details-left-sidebar", sidebarListIcon: 'flaticon-050-boxes', sidebarListText: 'Electricity'}
         ];
 
         let Datalist = data.map((val, i)=>{

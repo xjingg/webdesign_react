@@ -53,9 +53,9 @@ class Demo extends Component{
             {demoImg: 'home-2.jpg', demoLink: 'home-two', demoTitle: 'Home Two'},
             {demoImg: 'home-3.jpg', demoLink: 'home-three', demoTitle: 'Home Three'},
             {demoImg: 'about.jpg', demoLink: 'about-us', demoTitle: 'About Page'},
-            {demoImg: 'service-1.jpg', demoLink: 'services', demoTitle: 'Service Page'},
-            {demoImg: 'service-details-1.jpg', demoLink: 'service-details-left-sidebar', demoTitle: 'Service Details (Left Sidebar)'},
-            {demoImg: 'service-details-2.jpg', demoLink: 'service-details-right-sidebar', demoTitle: 'Service Details (Right Sidebar)'},
+            {demoImg: 'service-1.jpg', demoLink: 'categories', demoTitle: 'Category Page'},
+            {demoImg: 'service-details-1.jpg', demoLink: 'category-details-left-sidebar', demoTitle: 'Category Details (Left Sidebar)'},
+            {demoImg: 'service-details-2.jpg', demoLink: 'category-details-right-sidebar', demoTitle: 'Category Details (Right Sidebar)'},
             {demoImg: 'project-1.jpg', demoLink: 'products', demoTitle: 'Product Page'},
             {demoImg: 'project-details-1.jpg', demoLink: 'product-details', demoTitle: 'Product Details'},
             {demoImg: 'blog-1.jpg', demoLink: 'blog-left-sidebar', demoTitle: 'Blog 2 Column (Left Sidebar)'},
@@ -142,7 +142,7 @@ class Demo extends Component{
                             <div className="row">
                                 <div className="col-12">
                                     <h1>Make your shopping experience enjoyful</h1>
-                                    <a className="buy-btn float-right" href="">Contact Us</a>
+                                    <div className="buy-btn float-right" href="">Contact Us</div>
                                 </div>
                             </div>
                         </div>
